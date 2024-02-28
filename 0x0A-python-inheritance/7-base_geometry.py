@@ -3,7 +3,7 @@
 
 
 class BaseGeometry:
-    """Reprsent base geometry."""
+    """Represent base geometry."""
 
     def area(self):
         """Not yet implemented."""
@@ -14,12 +14,13 @@ class BaseGeometry:
 
         Args:
             name (str): The name of the parameter.
-            value (int): The parameter to validate.
+            value: The parameter to validate.
         Raises:
             TypeError: If value is not an integer.
             ValueError: If value is <= 0.
         """
-        if type(value) != int:
+        if not isinstance(value, int):  # Corrected line using isinstance()
             raise TypeError("{} must be an integer".format(name))
         if value <= 0:
             raise ValueError("{} must be greater than 0".format(name))
+
