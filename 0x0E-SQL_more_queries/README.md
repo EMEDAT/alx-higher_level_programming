@@ -1,0 +1,1 @@
+In this project I will be using USER privelages in SQL as well as JOINS, foreign keys, and primary keys to further my understanding of relational database mapping. I am looking forward to implementing more complex SQL as I have only messed with very basic syntax in my prior apps.
