@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Fetches https://intranet.hbtn.io/status."""
+"""Fetches http://0.0.0.0:5050/status."""
 import urllib.request
 
 
